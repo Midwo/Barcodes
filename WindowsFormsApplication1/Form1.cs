@@ -44,6 +44,8 @@ namespace WindowsFormsApplication1
                 pictureBox1.Height = bitmap.Height;
                 pictureBox1.Width = bitmap.Width;
             }
+
+            // save picture in disc
             string subPath = @"C:\\Users\\" + Environment.GetEnvironmentVariable("USERNAME") + "\\Desktop\\Listy_przewozowe\\ZDJ";
             bool exists = System.IO.Directory.Exists(subPath);
 
