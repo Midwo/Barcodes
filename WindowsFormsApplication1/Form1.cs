@@ -30,7 +30,7 @@ namespace WindowsFormsApplication1
             Bitmap bitmap = new Bitmap(barcode.Length * 40, 150);
             using (Graphics graphics = Graphics.FromImage(bitmap))
             {
-                Font oFont = new System.Drawing.Font("IDAutomationHC39M", 20);
+                Font oFont = new System.Drawing.Font("IDAutomationHC39M", 20);  // you must install this front
                 PointF point = new PointF(2f, 2f);
                 SolidBrush black = new SolidBrush(Color.Black);
                 SolidBrush White = new SolidBrush(Color.White);
